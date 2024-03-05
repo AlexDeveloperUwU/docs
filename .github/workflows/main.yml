@@ -27,8 +27,9 @@ jobs:
     - name: Deploy to gh-pages
       uses: peaceiris/actions-gh-pages@v3.9.3
       with:
-        github_token: ${{ secrets.GH_TOKENBOT }}
+        personal_token: ${{ secrets.GH_TOKENBOT }}
         publish_dir: ./.vitepress/dist
         force_orphan: true
-        committer: AlexDeveloperBot
+        user_name: 'AlexDeveloperBot'
+        user_email: 'hosting@alexdevuwu.com'
         commit_message: "Deploy documentation to gh-pages"
