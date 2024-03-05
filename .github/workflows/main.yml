@@ -1,0 +1,34 @@
+name: Build and Deploy Docs
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Use Node.js v18
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build documentation
+      run: npm run docs:build
+
+    - name: Deploy to gh-pages
+      uses: peaceiris/actions-gh-pages@v3.9.3
+      with:
+        github_token: ${{ secrets.GH_TOKENBOT }}
+        publish_dir: ./.vitepress/dist
+        force_orphan: true
+        committer: AlexDeveloperBot
+        commit_message: "Deploy documentation to gh-pages"
