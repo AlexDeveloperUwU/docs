@@ -27,11 +27,9 @@ export default defineConfig({
     sidebar: {
       "/liberteis/": [
         {
-          text: "Guide",
+          text: "LiberTeis",
           items: [
             { text: "Index", link: "/guide/" },
-            { text: "One", link: "/guide/one" },
-            { text: "Two", link: "/guide/two" },
           ],
         },
       ],
