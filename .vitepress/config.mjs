@@ -25,11 +25,12 @@ export default defineConfig({
       },
     ],
     sidebar: {
-      "/liberteis/": [
+      "/liberteis": [
         {
           text: "LiberTeis",
           items: [
-            { text: "Index", link: "/guide/" },
+            { text: "Inicio", link: "/liberteis/" },
+            { text: "Instalación", link: "/liberteis/instalacion" },
           ],
         },
       ],
