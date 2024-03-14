@@ -20,6 +20,10 @@ Si quedan consonantes, entonces el jugador tirará de la ruleta. Luego, dependie
 
 Cuando ya no queden más consonantes, para añadirle más dificultad, el usuario ya no podrá comprar más vocales, y tendrá que resolver el panel con las letras que haya comprado anteriormente.
 
+::: warning
+Al usar este modo, cuando toque resolver panel, no habrá límite de tiempo para resolverlo, ya que el el internet de cada persona es distinto, las latencias también y sería muy complicado de implementar.
+:::
+
 ## Características a destacar
 - El juego se ejecuta en la terminal, pero todo tiene colores o estilos de letra gracias a una clase del proyecto donde se almacenan todos.
 - El juego tiene un sistema de puntuación que se va acumulando a medida que el jugador acierta letras o resuelve el panel.
