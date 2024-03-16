@@ -32,6 +32,7 @@ Al usar este modo, cuando toque resolver panel, no habrá límite de tiempo para
 - Si el jugador hace control + c, el juego automáticamente guardará los datos si el jugador ha obtenido una puntuación mayor que la que ya estaba guardada en el leaderboard.
 - Se integra un modo de juego para el chat de Twitch, donde el bot se conectará al chat de Twitch y el jugador podrá interactuar con el bot para jugar.
 - Antes de ejecutar el juego, comprueba que los ficheros JSON son correctos, si no es así entonces los borra y descarga de GitHub los ficheros correctos.
+- Si juegas con el modo Twitch, se abre el chat de Twitch en el navegador por defecto.
 
 ## Listado de ficheros
 ``` markdown
