@@ -31,6 +31,7 @@ export default defineConfig({
           items: [
             { text: "Inicio", link: "/liberteis/" },
             { text: "Instalación", link: "/liberteis/instalacion" },
+            { text: "Actualización", link: "/liberteis/actualizacion" },
           ],
         },
       ],
