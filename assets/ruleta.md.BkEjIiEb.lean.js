@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as s,a4 as o}from"./chunks/framework.Bl20_RFa.js";const m=JSON.parse('{"title":"La ruleta de Python","description":"","frontmatter":{},"headers":[],"relativePath":"ruleta.md","filePath":"ruleta.md"}'),l={name:"ruleta.md"},n=o("",17),r=[n];function i(t,d,c,p,u,h){return s(),a("div",null,r)}const E=e(l,[["render",i]]);export{m as __pageData,E as default};
