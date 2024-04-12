@@ -1,0 +1,1 @@
+import{_ as e,c as a,o,a4 as r}from"./chunks/framework.E4YCCYO0.js";const _=JSON.parse('{"title":"Centro de documentación","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),n={name:"index.md"},i=r("",11),t=[i];function s(c,u,l,d,p,m){return o(),a("div",null,t)}const b=e(n,[["render",s]]);export{_ as __pageData,b as default};
