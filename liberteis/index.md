@@ -19,6 +19,7 @@ Al final, resultó la aplicación que puedes encontrar, descargar y ejecutar [en
 - Autenticación de usuarios local y cifrada
 - Páginas web limitadas para su uso en los dispositivos para los que están destinadas
 - Opción de exportar tanto la lista de usuarios como la lista de eventos en distintos formatos
+- Traducciones disponibles al Gallego, Español e Inglés
 
 ## Autor
 

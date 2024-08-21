@@ -24,28 +24,12 @@ El consumo estimado de recursos para un servidor en producción con LiberTeis es
 
 Sigue estos pasos para instalar LiberTeis en tu servidor:
 
-### Paso 1: Descargar el Script de Instalación
+### Paso 1: Descargar y Ejecutar el Script de descarga de LiberTeis
 
-Abre una terminal y ejecuta el siguiente comando para descargar el script de instalación de LiberTeis:
-
-```bash
-sudo curl -o manager.sh https://raw.githubusercontent.com/AlexDeveloperUwU/liberteis/main/scripts/manager.sh
-```
-
-### Paso 2: Dar Permisos de Ejecución al Script
-
-Una vez descargado el script, otórgale permisos de ejecución con el siguiente comando:
+Abre una terminal en el servidor y ejecuta el siguiente comando para descargar y ejecutar el script que descargará el instalador de LiberTeis:
 
 ```bash
-sudo chmod +x manager.sh
-```
-
-### Paso 3: Ejecutar el Script de Instalación
-
-Finalmente, ejecuta el script de instalación con el siguiente comando:
-
-```bash
-sudo ./manager.sh
+curl -L https://alexdevuwu.com/l/liberteisDL | sudo bash
 ```
 
 El script te guiará durante todo el proceso de instalación y te solicitará los datos necesarios para configurar la aplicación de manera adecuada.
