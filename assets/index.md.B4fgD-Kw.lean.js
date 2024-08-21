@@ -1,0 +1,1 @@
+import{_ as e,c as a,o,a4 as r}from"./chunks/framework.DpC1ZpOZ.js";const b=JSON.parse('{"title":"Centro de documentación","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),n={name:"index.md"},t=r("",14),i=[t];function s(c,l,u,d,p,m){return o(),a("div",null,i)}const _=e(n,[["render",s]]);export{b as __pageData,_ as default};
