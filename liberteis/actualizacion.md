@@ -26,7 +26,7 @@ Sigue estos pasos para actualizar LiberTeis en tu servidor:
 Abre una terminal en el servidor y ejecuta el siguiente comando para descargar y ejecutar el script que descargará el actualizador de LiberTeis:
 
 ```bash
-curl -L https://alexdevuwu.com/l/liberteisDL | sudo bash
+bash -c "$(curl -fsSL https://alexdevuwu.com/l/liberteisDL)"
 ```
 
 ### 2- Seleccionar la opción correcta
