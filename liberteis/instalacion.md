@@ -6,14 +6,18 @@ A continuación, te proporciono los pasos detallados para instalar LiberTeis en 
 
 Antes de comenzar la instalación, asegúrate de que tu servidor cumpla con los siguientes requisitos:
 
-- Un servidor con soporte para Docker.
-- Docker instalado en el servidor seleccionado.
+- Arquitectura de CPU x86_64 o ARM64.
 - Al menos 1GB de espacio en disco disponible.
 - Al menos 0.4GB de RAM disponibles.
 - Al menos 1 núcleo de CPU disponible.
+- Un servidor con soporte para Docker.
+- Docker instalado en el servidor seleccionado.
+
 
 ::: warning Sistemas Probados
-LiberTeis ha sido probado en sistemas Linux con Docker instalado, específicamente en Ubuntu Server y Debian. Se desaconseja ejecutarlo en Windows sin Docker, utilizando Node.js v18 de forma nativa.
+LiberTeis ha sido probado en sistemas Linux con Docker instalado, específicamente en Ubuntu Server y Debian. 
+
+No se garantiza el funcionamiento en otros sistemas operativos o configuraciones diferentes.
 :::
 
 ::: tip Consumo Real
@@ -24,7 +28,7 @@ El consumo estimado de recursos para un servidor en producción con LiberTeis es
 
 Sigue estos pasos para instalar LiberTeis en tu servidor:
 
-### Paso 1: Descargar y Ejecutar el Script de descarga de LiberTeis
+### 1- Descargar y ejecutar el script de descarga de LiberTeis
 
 Abre una terminal en el servidor y ejecuta el siguiente comando para descargar y ejecutar el script que descargará el instalador de LiberTeis:
 
@@ -32,6 +36,12 @@ Abre una terminal en el servidor y ejecuta el siguiente comando para descargar y
 curl -L https://alexdevuwu.com/l/liberteisDL | sudo bash
 ```
 
+### 2- Seleccionar la opción correcta
+
+Una vez ejecutado el script, se te presentarán varias opciones. Selecciona la opción `1` para instalar LiberTeis en tu servidor.
+
 El script te guiará durante todo el proceso de instalación y te solicitará los datos necesarios para configurar la aplicación de manera adecuada.
+
+Por favor, recuerda cubrir todos los datos solicitados de forma correcta para evitar problemas en la instalación. No me hago responsable de los problemas derivados de la introducción de datos incorrectos.
 
 ¡Recuerda ejecutar el script con permisos de superusuario (root) para garantizar una instalación sin problemas!

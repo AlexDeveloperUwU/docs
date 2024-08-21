@@ -4,6 +4,14 @@
 
 Esta página web sirve como centro de documentación para todos los proyectos desarrollados por mi. Aquí encontrarás información detallada, guías de usuario, tutoriales y cualquier otro recurso relevante relacionado con los proyectos.
 
+## Proyectos
+
+En esta página web encontrarás documentación detallada sobre algunos de mis proyectos. Para mejorar la experiencia del usuario, he decidido hacer una lista. Justo aquí debajo tienes un enlace para ir al listado.
+
+::: tip Proyectos
+[Ir al listado de proyectos](/proyectos)
+:::
+
 ## ¿Qué encontrarás aquí?
 
 - **Documentación detallada:** Cada proyecto tiene su propia carpeta con documentación detallada sobre su funcionamiento, características y cómo utilizarlo.

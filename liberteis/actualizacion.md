@@ -4,11 +4,14 @@ A continuación, te proporciono los pasos detallados para actualizar LiberTeis e
 
 ## 1. Requisitos Previos
 
-Antes de comenzar la actualización, asegúrate de que tu servidor cumpla con los siguientes requisitos:
+Antes de comenzar la actualización, asegúrate de que tu servidor cumpla con los siguientes requisitos que se especificaron a la hora de realizar la instalación de LiberTeis:
 
+- Arquitectura de CPU x86_64 o ARM64.
 - Al menos 1GB de espacio en disco disponible.
 - Al menos 0.4GB de RAM disponibles.
 - Al menos 1 núcleo de CPU disponible.
+- Un servidor con soporte para Docker.
+- Docker instalado en el servidor seleccionado.
 
 ::: tip Consumo Real
 El consumo estimado de recursos para un servidor en producción con LiberTeis es de aproximadamente 0.2GB de RAM y 0.5 núcleos de CPU. Ten en cuenta que estos valores pueden variar según el número de usuarios, eventos y conexiones.
@@ -18,30 +21,18 @@ El consumo estimado de recursos para un servidor en producción con LiberTeis es
 
 Sigue estos pasos para actualizar LiberTeis en tu servidor:
 
-### Paso 1: Descargar el Script de Actualización
+### 1- Descargar y ejecutar el script de actualización de LiberTeis
 
-Abre una terminal y ejecuta el siguiente comando para descargar el script de actualización de LiberTeis:
-
-```bash
-sudo curl -o manager.sh https://raw.githubusercontent.com/AlexDeveloperUwU/liberteis/main/scripts/manager.sh
-```
-
-### Paso 2: Dar Permisos de Ejecución al Script
-
-Una vez descargado el script, otórgale permisos de ejecución con el siguiente comando:
+Abre una terminal en el servidor y ejecuta el siguiente comando para descargar y ejecutar el script que descargará el actualizador de LiberTeis:
 
 ```bash
-sudo chmod +x manager.sh
+curl -L https://alexdevuwu.com/l/liberteisDL | sudo bash
 ```
 
-### Paso 3: Ejecutar el Script de Actualización
+### 2- Seleccionar la opción correcta
 
-Finalmente, ejecuta el script de actualización con el siguiente comando:
+Una vez ejecutado el script, se te presentarán varias opciones. Selecciona la opción `2` para actualizar LiberTeis en tu servidor.
 
-```bash
-sudo ./manager.sh
-```
-
-El script te guiará durante todo el proceso de actualización y te solicitará los datos necesarios para configurar la aplicación de manera adecuada.
+El script te guiará durante todo el proceso de actualización. Se utilizarán los datos de configuración existentes para actualizar la aplicación de manera adecuada.
 
 ¡Recuerda ejecutar el script con permisos de superusuario (root) para garantizar una actualización sin problemas!
