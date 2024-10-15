@@ -1,36 +1,70 @@
-# Centro de documentación
+---
+layout: home
 
-¡Te doy la bienvenida al centro de documentación de todos los proyectos de AlexDeveloperUwU!
+hero:
+  name: AlexDevUwU
+  text: Centro de documentación
+  tagline: Encuentra guías, tutoriales y recursos útiles para algunos de mis proyectos.
+  image:
+    src: https://raw.githubusercontent.com/AlexDeveloperUwU/alexdev-files/refs/heads/main/images/Logo%20wo%20bg.png
+    alt: Logo de AlexDevUwU
+  actions:
+    - theme: brand
+      text: Ver proyectos
+      link: /proyectos
+    - theme: alt
+      text: Ver mi GitHub
+      link: https://github.com/AlexDeveloperUwU
 
-Esta página web sirve como centro de documentación para todos los proyectos desarrollados por mi. Aquí encontrarás información detallada, guías de usuario, tutoriales y cualquier otro recurso relevante relacionado con los proyectos.
-
-## Proyectos
-
-En esta página web encontrarás documentación detallada sobre algunos de mis proyectos. Para mejorar la experiencia del usuario, he decidido hacer una lista. Justo aquí debajo tienes un enlace para ir al listado.
-
-::: tip Proyectos
-[Ir al listado de proyectos](/proyectos)
-:::
-
-## ¿Qué encontrarás aquí?
-
-- **Documentación detallada:** Cada proyecto tiene su propia carpeta con documentación detallada sobre su funcionamiento, características y cómo utilizarlo.
-- **Guías de usuario:** Si necesitas ayuda para utilizar alguno de los proyectos, nuestras guías de usuario te proporcionarán instrucciones paso a paso.
-- **Tutoriales:** Además de la documentación oficial, también proporcionamos tutoriales útiles para facilitar el uso y comprensión de nuestros proyectos.
-- **Recursos adicionales:** En algunos casos, podrás encontrar recursos adicionales como ejemplos de código, archivos de configuración, etc.
+features:
+  - icon: 📚
+    title: Documentación clara y detallada
+    details: Encuentra información útil y fácil de seguir para los proyectos que cuentan con documentación.
+  - icon: 🛠️
+    title: Guías paso a paso
+    details: Instrucciones detalladas para ayudarte a sacar el máximo provecho de los proyectos.
+  - icon: 📝
+    title: Tutoriales prácticos
+    details: Algunos proyectos incluyen tutoriales para que aprendas a utilizarlos rápidamente.
+  - icon: 🔗
+    title: Recursos adicionales
+    details: En algunos casos, también podrás acceder a ejemplos de código y archivos de configuración.
+---
 
 ## ¿Cómo contribuir?
 
-¡Tu contribución es bienvenida! Si encuentras algún error en la documentación, tienes sugerencias de mejora o quieres contribuir con nuevos recursos, ¡no dudes en hacerlo! Sigue estos pasos para contribuir de manera efectiva:
+¡Tu ayuda es siempre bienvenida! Si encuentras errores en la documentación, tienes sugerencias de mejora o quieres aportar con nuevos recursos, sigue estos pasos:
 
 1. Haz un fork de este repositorio.
-2. Crea una nueva rama (branch) para tus cambios.
-3. Realiza tus modificaciones y asegúrate de mantener un estilo coherente con el resto de la documentación.
-4. Haz un pull request con tus cambios para su revisión.
-5. Una vez que tus cambios sean revisados y aprobados, se fusionarán con la rama principal.
+2. Crea una nueva rama para tus cambios.
+3. Realiza las modificaciones manteniendo un estilo coherente con el resto de la documentación.
+4. Envía un pull request para que lo revise.
+5. Si tus cambios son aprobados, los integraré en la rama principal.
 
 ## Contacto
 
-Si tienes alguna pregunta, sugerencia o simplemente quieres ponerte en contacto, no dudes en escribirme a [alex@alexdevuwu.com](mailto:alex@alexdevuwu.com).
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme a [alex@alexdevuwu.com](mailto:alex@alexdevuwu.com).
 
-¡Gracias por utilizar mis proyectos!
+¡Gracias por tu interés en mis proyectos y por utilizar la documentación disponible!
+
+<style>
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(0deg, #1BA1C2, #44AE9E);
+
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, rgba(27, 161, 194, 0.5) 50%, rgba(68, 174, 158, 0.5) 50%);
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(68px);
+  }
+}
+</style>
