@@ -47,24 +47,3 @@ Si tienes alguna pregunta o sugerencia, no dudes en contactarme a [alex@alexdevu
 
 ¡Gracias por tu interés en mis proyectos y por utilizar la documentación disponible!
 
-<style>
-:root {
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(0deg, #1BA1C2, #44AE9E);
-
-  --vp-home-hero-image-background-image: linear-gradient(-45deg, rgba(27, 161, 194, 0.5) 50%, rgba(68, 174, 158, 0.5) 50%);
-  --vp-home-hero-image-filter: blur(44px);
-}
-
-@media (min-width: 640px) {
-  :root {
-    --vp-home-hero-image-filter: blur(56px);
-  }
-}
-
-@media (min-width: 960px) {
-  :root {
-    --vp-home-hero-image-filter: blur(68px);
-  }
-}
-</style>
